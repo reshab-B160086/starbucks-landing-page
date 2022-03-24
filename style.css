@@ -118,6 +118,11 @@ section a {
   text-align: center;
   justify-self: center;
   padding: 20px 0;
+  margin: 0 auto;
+}
+
+.box-f .box-text {
+  max-width: 600px;
 }
 
 .box-text .btn {
@@ -232,6 +237,14 @@ section a {
   padding: 40px 0;
 }
 
+@media (min-width: 1300px) {
+  .box {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 @media (max-width: 960px) {
   .text-xl {
     font-size: 30px;
@@ -241,13 +254,5 @@ section a {
   }
   .text-md {
     font-size: 19px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .box {
-    max-width: 1440px;
-    margin-right: auto;
-    margin-left: auto;
   }
 }
